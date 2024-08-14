@@ -1,0 +1,178 @@
+body{
+    display: flex;
+    justify-content: center ;
+    padding: 40px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 120px 480px auto;
+    background-color: white;
+    box-shadow: -1px 1px 5px 3px rgba(0,0,0,0.22);
+    border-radius: 20px;
+    width: 800px;
+    height: 500px;
+    
+}
+.items-1{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 1px solid rgba(0,0,0,0.22);
+}
+.Container-1{
+    display: flex;
+    flex-direction: column;
+   height: 330px;
+   justify-content: space-around;
+
+}
+.DASHBOARD{
+    padding-left: 25px;
+    padding-top: 5px;
+    color: rgba(133, 133, 133, 1);
+    font-family: Roboto;
+    font-size:x-small
+}
+.credit-card{
+    display: flex;
+    padding-top: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.card{
+    background-color: rgba(255, 255, 255, 1);
+    height: 100px;
+    width: 120px;
+    border-radius: 8px;
+    box-shadow: -1px 1px 5px 3px rgba(0,0,0,0.22);
+    border: 1px solid rgba(0,0,0,0.40);
+
+}
+p{
+    color: rgba(88, 88, 88, 1);
+}
+.Carro{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.texto1{
+    display: flex;
+    justify-content: center;
+    font-size:small;
+}
+.Trans{
+    padding-left: 25px;
+    padding-top: 25px;
+    color: rgba(133, 133, 133, 1);
+    font-family: Roboto;
+    font-size:x-small;
+} 
+.info{
+    display: flex;
+    background-color: rgba(255, 255, 255, 1);
+    height: 26px;
+    width: 25px;
+    border-radius: 8px;
+    box-shadow: -1px 1px 5px 3px rgba(0,0,0,0.22);
+    border: 1px solid rgba(0,0,0,0.40);
+    justify-content: center;
+}
+.items-3{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 241, 241, 1);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+}
+h5{
+    font-family: Roboto;
+    font-size:x-small;
+}
+table,td,th{
+    
+    border: 1px solid black;
+    text-align:left;
+}
+.grid-container1{
+    display: grid;
+    height: 170px;
+    width: 420px;
+    margin-top: 30px;
+    margin-left: 25px;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 5px;   
+}
+.grid-item{
+    align-items: center;
+
+}
+.nueva-letra{
+    font-family: Roboto;
+    font-size: x-small;
+    color: rgba(175, 175, 175, 1);
+}
+.item3{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(129, 129, 129, 1);
+    font-size: small;
+    font-family: Roboto;
+    color: rgba(0, 0, 0, 5);
+
+}
+.item2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: small;
+    font-family: Roboto;
+    justify-content: center;
+    border-bottom: 1px solid rgba(129, 129, 129, 1);
+    color: rgba(83, 83, 83, 1);
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(129, 129, 129, 1);
+}
+.Tarjet{
+    display: flex;
+    text-align: center;
+    font-size: xx-small;
+    font-family: Roboto;
+    margin-left: 9px;
+    color: rgba(105, 105, 105, 1);
+}
+.information{
+
+    align-items: start;
+    background-color: aqua;
+    color: rgba(105, 105, 105, 1);
+    font-size: medium;
+    font-family: Roboto;
+
+}
+.Hola{
+    display: flex;
+    padding-left: 15px;
+    flex-direction: column;
+    color: rgba(105, 105, 105, 1);
+    font-size: x-small;
+    font-family: Roboto;
+}
+.button{
+    margin-top: 25px;
+    display: flex;
+    background-color: rgba(255, 125, 125, 1);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 30px;
+    width: 110px;
+    font-size: xx-small;
+    box-shadow: -1px 1px 5px 3px rgba(0,0,0,0.22);
+}
